@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:background="#d3051ea6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/up_bar"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="20dp" android:paddingTop="170dp" android:paddingRight="20dp" android:paddingBottom="170dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:paddingHorizontal="20dp" android:paddingVertical="170dp">
+        <Button android:textAppearance="@style/TextAppearance.AppCompat.Display1" android:textStyle="normal|bold|italic" android:id="@+id/goto_register_new_farmer" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="25dp" android:text="Register New Farmer" android:layout_weight="1" android:onClick="newFarmer" android:textAllCaps="false" android:fontFamily="serif" android:autoSizeTextType="1"/>
+        <Button android:textAppearance="@style/TextAppearance.AppCompat.Display1" android:textStyle="normal|bold|italic" android:id="@+id/goto_show_existing_farmer" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="25dp" android:text="Show Existing Farmer" android:layout_weight="1" android:onClick="existingFarmer" android:textAllCaps="false" android:fontFamily="serif" android:autoSizeTextType="1"/>
+    </LinearLayout>
+    <include layout="@layout/bottom_bar"/>
+</LinearLayout>

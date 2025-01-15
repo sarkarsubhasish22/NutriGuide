@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:background="#d3051ea6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/up_bar"/>
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textStyle="italic" android:textColor="@color/teal_200" android:id="@+id/farmer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="50dp" android:paddingTop="150dp" android:paddingRight="50dp" android:paddingBottom="150dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <Button android:layout_gravity="center" android:id="@+id/goto_pfi" android:layout_width="match_parent" android:layout_height="match_parent" android:text="PFI" android:layout_weight="4" android:onClick="pfi"/>
+        <TextView android:gravity="center_horizontal" android:id="@+id/pfi_or_vo2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp" android:text="And/Or" android:layout_weight="6" android:textAlignment="center"/>
+        <Button android:id="@+id/goto_vo2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp" android:text="@string/vo2" android:layout_weight="4" android:onClick="vo2" android:textAllCaps="false"/>
+    </LinearLayout>
+    <include layout="@layout/bottom_bar"/>
+</LinearLayout>

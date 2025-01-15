@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:background="#d3051ea6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/up_bar"/>
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <include layout="@layout/bottom_bar"/>
+</LinearLayout>

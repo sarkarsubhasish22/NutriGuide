@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:background="#d3051ea6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/up_bar"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        <Button android:textSize="20sp" android:layout_gravity="center" android:id="@+id/goto_sign_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sign Up" android:onClick="signUp" app:backgroundTint="#faff5722"/>
+        <TextView android:textSize="20sp" android:textStyle="italic" android:textColor="#ffffff" android:layout_gravity="center" android:id="@+id/goto_sign_up_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(Sign up if you are not registered)"/>
+        <Button android:textSize="20sp" android:layout_gravity="center" android:id="@+id/goto_sign_in" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="Sign In" android:onClick="signIn" app:backgroundTint="#ff5722"/>
+        <TextView android:textSize="20sp" android:textStyle="italic" android:textColor="#ffffff" android:layout_gravity="center" android:id="@+id/goto_sign_in_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(Sign in if you are already registered)"/>
+        <Button android:textSize="20sp" android:layout_gravity="center" android:id="@+id/goto_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="Info" android:onClick="info" app:backgroundTint="#ff5722"/>
+        <TextView android:textSize="20sp" android:textStyle="italic" android:textColor="#ffffff" android:layout_gravity="center" android:id="@+id/goto_info_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(Get information about different parameters)" android:singleLine="true"/>
+    </LinearLayout>
+    <include layout="@layout/bottom_bar"/>
+</LinearLayout>

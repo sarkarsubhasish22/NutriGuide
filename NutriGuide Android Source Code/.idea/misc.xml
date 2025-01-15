@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp/Desktop/NutriGuide/resources/res/layout/abc_screen_content_include.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hp/Desktop/NutriGuide/resources/res/layout/abc_tooltip.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hp/Desktop/NutriGuide/resources/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hp/Desktop/NutriGuide/resources/res/layout/bottom_bar.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hp/Desktop/NutriGuide/resources/res/layout/notification_template_part_time.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hp/Desktop/NutriGuide/resources/res/layout/test_action_chip.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hp/Desktop/NutriGuide/resources/res/layout/test_toolbar_custom_background.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hp/Desktop/NutriGuide/resources/res/layout/text_view_with_line_height_from_layout.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hp/Desktop/NutriGuide/resources/res/layout/up_bar.xml" value="0.358695652173913" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

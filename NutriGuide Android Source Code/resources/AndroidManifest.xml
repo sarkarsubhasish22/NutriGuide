@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:versionCode="1" android:versionName="1.0" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.example.nutriguide" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="30"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:theme="@style/Theme.NutriGuide"
+        android:label="@string/app_name"
+        android:icon="@mipmap/splashscreen"
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:resizeableActivity="true"
+        android:networkSecurityConfig="@xml/network_config"
+        android:roundIcon="@mipmap/splashscreen"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:requestLegacyExternalStorage="true">
+        <activity android:name="com.example.nutriguide.infoActivity"/>
+        <activity android:name="com.example.nutriguide.forgotPasswordActivity"/>
+        <activity android:name="com.example.nutriguide.mddActivity" android:parentActivityName="com.example.nutriguide.sftActivity"/>
+        <activity android:name="com.example.nutriguide.nutriInformationActivity" android:parentActivityName="com.example.nutriguide.HomeActivity"/>
+        <activity android:name="com.example.nutriguide.sftActivity"/>
+        <activity android:name="com.example.nutriguide.ccActivity" android:parentActivityName="com.example.nutriguide.samActivity"/>
+        <activity android:name="com.example.nutriguide.muacActivity" android:parentActivityName="com.example.nutriguide.samActivity"/>
+        <activity android:name="com.example.nutriguide.bmiActivity" android:parentActivityName="com.example.nutriguide.samActivity"/>
+        <activity android:name="com.example.nutriguide.samActivity"/>
+        <activity android:name="com.example.nutriguide.vo2Activity" android:parentActivityName="com.example.nutriguide.fitnessActivity"/>
+        <activity android:name="com.example.nutriguide.fitnessActivity" android:parentActivityName="com.example.nutriguide.existingFarmerActivity"/>
+        <activity android:name="com.example.nutriguide.pfiActivity" android:parentActivityName="com.example.nutriguide.existingFarmerActivity"/>
+        <activity android:name="com.example.nutriguide.existingFarmerActivity" android:parentActivityName="com.example.nutriguide.registerFarmerActivity"/>
+        <activity android:name="com.example.nutriguide.newFarmerActivity" android:parentActivityName="com.example.nutriguide.registerFarmerActivity"/>
+        <activity android:name="com.example.nutriguide.registerFarmerActivity" android:parentActivityName="com.example.nutriguide.userProfileActivity"/>
+        <activity android:name="com.example.nutriguide.signInActivity" android:parentActivityName="com.example.nutriguide.userProfileActivity"/>
+        <activity android:name="com.example.nutriguide.signUpActivity" android:parentActivityName="com.example.nutriguide.userProfileActivity"/>
+        <activity android:name="com.example.nutriguide.userProfileActivity" android:parentActivityName="com.example.nutriguide.HomeActivity"/>
+        <activity android:name="com.example.nutriguide.HomeActivity"/>
+        <activity android:name="com.example.nutriguide.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
